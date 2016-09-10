@@ -1,0 +1,86 @@
+html, body{overflow:; margin:0px; padding:0px; font-size: 100%;}
+h1, h2, h3, h4, h5, h6, p, a {line-height: 140%; text-decoration: none; color: #000;}
+body, p {font-size: 1.2rem;}
+h2 {font-family: sans-serif; text-transform: uppercase; font-size: 2rem;}
+
+body{background:url('line-bg.png');}
+nav {text-align:right;}
+nav ul {margin: 5px 0 0 0; }
+nav ul li {display: inline; padding-right: 50px;}
+nav ul li a{display: inline-block; font-size: 20px; padding: 1px 5px; border-radius: 3px;}
+nav ul li a:hover{background: #2c3e50; color: white;}
+
+header{display:block; padding: 0 10%; margin-bottom: 50px;}
+
+.title {border-left: 2px solid #dfdfdf; padding-left: 20px;}
+.titlelink{color: #2c3e50; border-bottom: 2px dotted black;}
+.titlelink:hover{color:#2980b9;}
+.title h1 {font-family: georgia, times, serif; font-size: 4.5rem;}
+.title h2 {color: #3d3d3d; font-family: 'Arial Narrow', sans-serif; font-size: 2rem; font-style: italic; line-height: 20%;}
+.title p {color: #3d3d3d; font-family: Georgia, serif; margin-top: 35px;}
+
+.dashedborder{border-bottom: 0px solid black; padding-bottom: 5px;}
+.desc {background: #F6F600; padding: 20px 7% 30px;}
+.reasons {margin: 50px 50px; font-size: 1.5rem;}
+.reasons li {margin: 12px 10px;}
+
+.randnum {text-align:center; background: white; padding: 20px;}
+#num {font-size: 11rem;}
+#disclaimer {font-family: 'Georgia', serif; font-size: 0.9rem;}
+
+.discoveries {text-align: center; background: #2c3e50; padding: 20px; color: white;}
+.discoveries p{color: white;}
+
+
+.outer{padding: 70px 20px 20px; background:white;}
+
+.discoveries {
+  padding: 5px;
+  margin: 0 auto;
+  max-width: 1000px;
+  background: rgba(47,51,54,1); /* fallback */
+  border-radius: 10px;
+}
+
+blockquote {
+  border: 1px dashed rgb(128,130,132);
+  border-left: none;
+  border-right: none;
+  color: #ccc;
+  margin: 0;
+  min-height: 40px;
+  padding: 20px;
+  position: relative;
+  font-size: 1.5rem;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background: rgba(47,51,54,1);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  bottom: -12px;
+  left: 90%;
+}
+
+blockquote:after {
+  height: 10px;
+  width: 10px;
+  bottom: -7px;
+  border-right: 1px dashed rgba(128,130,132);
+  border-bottom: 1px dashed rgba(128,130,132);
+}
+
+.quote2{padding: 5px; text-align:center; background: #415C77;}
+.quote2 p{ font-family:monospace; color: white; font-size: 1.2rem; }
+footer { text-align: center; padding: 20px; background:#2c3e50; color:white;}
+footer p, footer a{color: white; font-family: monospace; font-size: 1.1rem;}
+footer a{font-size: 1.0rem; color: #ea9090;}
+footer a:hover{text-decoration:underline;}
