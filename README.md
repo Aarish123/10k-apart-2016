@@ -39,7 +39,7 @@ becomes:
 ### Minimum and optimized images
 Images were avoided mostly. The images used (like in the favicon) were really small and optimized.
 
-## Character entities for symbols
+### Character entities for symbols
 Only character entities (like ✎, ✉ etc.) were used as icons on the site wherever required.
 
-## Minimal JS used, with fallback options
+### Minimal JS used, with fallback options
