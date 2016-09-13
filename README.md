@@ -6,7 +6,7 @@ A "Random" Website - My entry for the 10k Apart contest
 ## Some noteworthy optimizations
 
 ### URLs
-- Used `<a href="">` for current page/directory link instead of the complete `<a href="http://anirudhkhanna.github.io/10k-apart-2016">`
+- Used `<a href="">` for current page/directory link instead of the complete `<a href= "http://anirudhkhanna.github.io/10k-apart-2016">`
 
 - Omitted the protocol name for external sites. For example, `//github.com` instead of the complete URL `http://github.com`
 
@@ -37,7 +37,7 @@ becomes:
 ```
 
 ### Minimum and optimized images
-Images were avoided mostly. The images used (like in the favicon) were really small and optimized.
+Images were avoided mostly. The images used (like the favicon) were really small and optimized.
 
 ### Character entities for symbols
 Only character entities (like ✎, ✉ etc.) were used as icons on the site wherever required.
