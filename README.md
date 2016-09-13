@@ -14,15 +14,17 @@ A "Random" Website - My entry for the 10k Apart contest
 
 - URL shorteners were not used because although they could reduce the number of characters, they are not always considered safe.
 
-## Code Formatting
-The formatting is a bit compact. Especially in CSS, where the code format is like this:
+### Code Formatting
+- The formatting is a bit compact.
+
+- Especially in CSS, where the code format is like this:
 ```
 nav ul {margin:5px 0 0 0;}
 nav ul li {display:inline; padding-right:50px;}
 ...
 ```
 
-## No superfluous tags
+### No superfluous tags
 It was tried that unnecessary tags were cut down. For example,
 ```
 <span id="titlelink">
@@ -34,7 +36,7 @@ becomes:
 <a id="titlelink">...</a>
 ```
 
-## Minimum and optimized images
+### Minimum and optimized images
 Images were avoided mostly. The images used (like in the favicon) were really small and optimized.
 
 ## Character entities for symbols
