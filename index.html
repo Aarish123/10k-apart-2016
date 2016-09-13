@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A "Random" Website - For 10k Apart 2016</title>
+  <meta name="description" content="A random website defining the beauty of randomness. My project for 10k Apart contest, 2016.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="">&#8477; &nbsp;Home</a></li>
+      <li><a href="//github.com/anirudhkhanna/10k-apart-2016/">&#9734; &nbsp;Code on GitHub</a></li>
+      <li><a href="../">&#9998; &nbsp;My Portfolio</a></li>
+      <li><a href="mailto:anirudhkhanna.cse@gmail.com">&#9993; &nbsp;Email</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <div id="title">
+      <h1><a href="" id="titlelink">Random</a></h1>
+      <h2>ADJECTIVE</h2>
+      <p>Made, done, or happening without method or conscious decision.</p>
+    </div>
+  </header>
+
+  <div id="yellowbg">
+    <h2 align="center"><u>RANDOM IS COOL, HERE'S WHY</u> &rarr;</h2>
+    <ul class="reasonslist">
+      <li>It is in the human nature.</li>
+      <li>Used in encryption, simulation of complex phenomena and arbitrary selection from data sets.</li>
+      <li>Geeks love random numbers.</li>
+      <li>It relieves us the pain of strategically deciding which shirt to wear.</li>
+      <li><a href="//en.wikipedia.org/wiki/Lord_Voldemort" target="_blank">Voldemort</a> could have lived happily ever after if he had chosen to make one random item his <a href="//en.wikipedia.org/wiki/Magical_objects_in_Harry_Potter#Horcruxes" target="_blank">horcrux</a>.</li>
+      <li><i>...and so on.</i></li>
+    </ul>
+  </div>
+
+  <div id="quotebox">
+    <div class="quote">
+      <blockquote>
+        <em><span style="font-size: 2.2rem;">“</span> The generation of random numbers is too important to be left to chance. <span style="font-size: 2.2rem;">”</span></em>
+        <br><br>—Robert R. Coveyou
+      </blockquote>
+    </div>
+  </div>
+
+  <div id="randnum">
+    <h2>HEY, YOUR LUCKY RANDOM NUMBER IS</h2>
+    <div id="num">
+      5 <sup style="font-size:3rem; vertical-align:top;">*</sup>
+    </div>
+    <div id="nojs">
+      <big><strong>*</strong></big> Chosen by a fair dice roll. Guaranteed to be random. <br><em>(Well, actually the above number was not generated randomly. It seems that you have turned off JavaScript, so that's completely your fault. Good day!)</em>
+    </div>
+  </div>
+
+  <div id="bluebg">
+    <p>Rejoice the touch of randomness in your life :)</p>
+  </div>
+
+  <footer>
+    <p>A minimal, under-10KB website for the <a href="//a-k-apart.com" target="_blank">10k Apart</a> contest &nbsp;&bull;&nbsp; <big>&copy;</big> <a href="../">Anirudh Khanna</a> 2016 &nbsp;&bull;&nbsp; View code <a href="//github.com/anirudhkhanna/10k-apart-2016/">on GitHub</a> <br>
+    <span style="display:inline-block; font-size:15px; color:#ea9090; margin-top:10px;" title="Made in 10 hrs with heartwork!">&#x2764;</span></p>
+  </footer>
+
+  <script>
+    document.getElementById('nojs').style.display='none';
+    document.getElementById('num').innerHTML = Math.round(Math.random()*100);
+    
+    var colors = ['#82b964', '#d24d33', '#2e77bb', '#4da574', '#b58400', '#df620e', '#ce8200', '#6b4389', '#d43f3f', '#668000', '#4ea2b7', '#91753b', '#2980b9'];
+    var title = document.getElementById('titlelink');
+    title.setAttribute('onmouseover', 'setRandColor();');
+    title.setAttribute('onmouseout', 'setDefaultColor();');
+    function setRandColor() {title.style.color = colors[Math.floor(Math.random()*colors.length)];}
+    function setDefaultColor(){title.style.color = '#2c3e50';}
+  </script>
+</body>
+</html>
