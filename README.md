@@ -43,3 +43,5 @@ Images were avoided mostly. The images used (like the favicon) were really small
 Only character entities (like ✎, ✉ etc.) were used as icons on the site wherever required.
 
 ### Minimal JS used, with fallback options
+
+### Indentation with 2 spaces, not 4
